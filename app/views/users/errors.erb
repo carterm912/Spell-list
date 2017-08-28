@@ -1,0 +1,7 @@
+<div class="errors_view">
+  <ul>
+    <% @user.errors.full_messages.each do |error| %>
+      <li><%= "#{error}" %></li>
+    <% end %>
+  </ul>
+</div>

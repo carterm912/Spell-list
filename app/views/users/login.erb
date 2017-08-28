@@ -1,0 +1,15 @@
+<div class="user_login">
+  <h1>User Login</h1>
+  <p> Please login to access all of our features! </p>
+  <form action='/users/login' method='POST'>
+    <label class="login_label">Username</label>
+    <br>
+    <input type="text" name="user[username]">
+    <br>
+    <label class="login_label">Password</label>
+    <br>
+    <input type="password" name="user[hashed_password]">
+    <br>
+    <input type="submit" name="Login">
+  </form>
+</div>

@@ -1,0 +1,22 @@
+<div class="registration_page">
+  <h1>User Registration</h1>
+  <p> Please create an account to access all of our features!</p>
+  <div class="registration_form">
+    <form action='/users' method='POST'>
+      <br>
+      <label>Username</label>
+      <br>
+      <input type="text" name="user[username]">
+      <br>
+      <label>email</label>
+      <br>
+      <input type="text" name="user[email]">
+      <br>
+      <label>Password</label>
+      <br>
+      <input type="password" name="user[hashed_password]">
+      <br>
+      <input type="submit" name="Submit">
+    </form>
+  </div>
+</div>
