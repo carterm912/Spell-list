@@ -1,6 +1,4 @@
-get '/' do
-  erb :'users/login'
-end
+
 
 get '/users' do
   redirect '/'
