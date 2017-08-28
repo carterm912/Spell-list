@@ -1,5 +1,5 @@
 get '/' do
-  redirect '/users/login'
+  erb :'users/login'
 end
 
 get '/users' do
